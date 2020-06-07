@@ -35,3 +35,14 @@ QMK is developed and maintained by Jack Humbert of OLKB with contributions from 
 ## Official Website
 
 [qmk.fm](https://qmk.fm) is the official website of QMK, where you can find links to this page, the documentation, and the keyboards supported by QMK.
+
+## Instructions for flash
+
+* Open QMK Toolbox
+* Press RESET key
+* Observe `*** DFU device connected`
+* Run `make lily58:mz496:dfu`
+* Observe `*** DFU device disconnected`
+* Replug on second half and repeat from pressing RESET key
+* Replug back to original half
+
